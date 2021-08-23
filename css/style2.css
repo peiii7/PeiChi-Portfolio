@@ -1,0 +1,257 @@
+/*---------------------------one way--------------------------------*/
+.oneway img {
+    width: 100%;
+}
+.oneway h3 {
+    width: fit-content;
+    margin-top: 3em !important;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid #2b2b2b;
+}
+.season_concept {
+    margin: 50px auto 20px auto;
+    padding: 10px;
+    width: fit-content;
+    border: 2px solid #2b2b2b;
+}
+
+.map img {
+    border: none !important;
+}
+.one_event {
+    border: none !important;
+}
+.exhi img {
+    width: 60%;
+    border: none !important;
+}
+.ticket {
+    margin: 30px;
+    text-align: center;
+}
+.ticket img {
+    width: 60%;
+    margin-bottom: 10px;
+}
+.basic_content {
+    margin: 16px;
+    padding: 8px;
+}
+.basic_content ul {
+    padding: 0;
+}
+.basic ul li {
+    list-style: none;
+}
+@media screen and (max-width: 768px) {
+    .exhi img {
+        width: 80%;
+    }
+    .ticket img {
+        width: 100%;
+    }
+}
+@media screen and (max-width: 480px) {
+    .exhi img {
+        width: 100%;
+    }
+}
+/*----------------------------------tempo jump-----------------*/
+.tempojump img {
+    width: 100%;
+}
+.tempojump h3 {
+    width: fit-content;
+    margin-top: 3em !important;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid #2b2b2b;
+}
+.ropedesign img {
+    width: 80%;
+}
+.ropedesign ul {
+    padding: 0;
+    padding: 3em;
+    width: fit-content;
+    margin: auto;
+    border-top: 2px solid #2b2b2b;
+}
+.ropedesign ul li {
+    list-style: none;
+}
+.tempojump .youtube_container iframe,
+.tempojump .youtube_container object,
+.tempojump .youtube_container embed {
+    margin: 0;
+    margin-top: 15px;
+}
+
+/*-----------------------------dove--------------------------------------------------*/
+.dove img {
+    width: 100%;
+}
+.dove h3 {
+    width: fit-content;
+    margin-top: 3em !important;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid #2b2b2b !important;
+}
+.dove .card {
+    border: 3px solid #2b2b2b;
+    border-radius: 5px;
+    margin: 10px 0;
+    height: fit-content !important;
+}
+.card img {
+    width: 100%;
+    border: none;
+}
+.dove .bottom p {
+    margin: 15px 10%;
+}
+@media screen and (max-width: 768px) {
+    .dove .chara .card {
+        height: 380px;
+    }
+    .dove .card {
+        margin: 10px -10px;
+    }
+}
+@media screen and (max-width: 480px) {
+    .dove .card {
+        margin: 10px;
+        padding: 10px;
+    }
+}
+/*----------------------------------------------------LV-------------------------------------------*/
+.lv img {
+    width: 100%;
+}
+.lv h3 {
+    width: fit-content;
+    margin-top: 3em !important;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid #2b2b2b !important;
+}
+.subhfive {
+    margin: 50px auto 20px auto;
+    padding: 10px;
+    width: fit-content;
+    border: 2px solid #2b2b2b;
+}
+.lv_chara img {
+    width: 75%;
+    align-self: center;
+}
+.lv_chara .card {
+    background-image: url('../icon_image/LV/Chara_BG.png');
+    border: 2px solid #52352f;
+    padding: 20px;
+    margin: 8px;
+}
+
+.lv_object .card {
+    width: 150px;
+    padding: 8px;
+    margin: 12px;
+    border: 2px solid #52352f;
+}
+
+.lvmember_item {
+    border: 3px solid #52352f;
+    background-color: rgba(255, 255, 255, 0.3);
+}
+.lvmember h5 {
+    font-weight: bold;
+    color: #52352f;
+}
+@media screen and (max-width: 768px) {
+}
+@media screen and (max-width: 480px) {
+    .lv_object .card {
+        width: 120px;
+        padding: 8px;
+        margin: 8px;
+        border: 2px solid #52352f;
+    }
+}
+/*--------------------felis--------------------------------*/
+.felis img {
+    width: 100%;
+}
+.felis h3 {
+    width: fit-content;
+    margin-top: 3em !important;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid #2b2b2b;
+}
+/*-------------------------------party------------------------------*/
+.party img {
+    width: 100%;
+}
+.party h3 {
+    width: fit-content;
+    margin-top: 3em !important;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid #2b2b2b;
+}
+.party_poster {
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    margin: 10px;
+}
+.poster_circle img {
+    border-radius: 50%;
+    padding: 8px;
+    border: none;
+}
+
+/*--------------------------------------ISOLATE---------------------------------*/
+.isolate h3 {
+    width: fit-content;
+    margin-top: 3em !important;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid #2b2b2b;
+}
+.isolate img {
+    width: 100%;
+}
+.isolate .basic {
+    width: fit-content;
+}
+/*-------------------------------web design
+---------------------------------*/
+.webdesign img {
+    width: 100%;
+}
+.webdesign h3 {
+    width: fit-content;
+    margin-top: 3em !important;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid #2b2b2b;
+}
+.weblink {
+    color: #2b2b2b !important;
+    font-weight: 800;
+    font-size: 20px;
+    border: 2px solid #2b2b2b;
+    margin-top: 16px;
+}
+.weblink:hover {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255) !important;
+    text-decoration: none;
+    transition: 0.5s;
+}
+.personal {
+    width: fit-content;
+}

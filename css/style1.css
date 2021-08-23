@@ -1,0 +1,420 @@
+/*
+color
+background:#f5f5f5
+black:#2b2b2b
+blue:#567ae5
+pink:#FA9483
+
+
+*/
+
+html {
+    width: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Taipei Sans TC Beta';
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+.menu {
+    width: 25px;
+    height: 25px;
+    border: none;
+}
+.index {
+    padding: 7em 1em;
+    background-color: #f8f4e9;
+}
+.index h1 {
+    font-size: 72px;
+    color: #2b2b2b;
+}
+
+.index img {
+    width: 100%;
+    border: none;
+}
+.index_title {
+    font-family: 'Forte';
+    border: 3px solid #2b2b2b;
+    color: #e4e5eb;
+    background-color: #2b2b2b;
+    width: 70%;
+    font-weight: 600;
+}
+/*---------------------------------------------------*/
+.ml11 {
+    font-weight: 800;
+    font-size: 4em;
+}
+
+.ml11 .text-wrapper {
+    position: relative;
+    display: inline-block;
+    padding-top: 0.1em;
+    padding-right: 0.05em;
+    padding-bottom: 0.15em;
+}
+
+.ml11 .line {
+    opacity: 0;
+    position: absolute;
+    left: 0;
+    height: 100%;
+    width: 3px;
+    background-color: #2b2b2b;
+    transform-origin: 0 50%;
+}
+
+.ml11 .line1 {
+    top: 0;
+    left: 0;
+}
+
+.ml11 .letter {
+    display: inline-block;
+    line-height: 1em;
+    font-family: 'Forte';
+}
+
+/*----------------------illust------------------------*/
+.illust {
+    width: 100%;
+    padding: 8em 4em !important;
+    justify-content: center;
+    background-color: #f5f5f5;
+}
+.illust img {
+    border: 3px solid #2b2b2b;
+}
+.illust img:hover {
+    filter: brightness(60%);
+    transition: 0.5s;
+    cursor: zoom-in;
+}
+.row {
+    margin: 0 !important;
+}
+@media screen and (max-width: 768px) {
+    .illust {
+        padding: 7em 2em !important;
+    }
+}
+@media screen and (max-width: 480px) {
+    .illust {
+        padding: 7em 1em !important;
+    }
+}
+/*----------------------about------------------------*/
+.total {
+    counter-reset: #2b2b2b;
+}
+.top {
+    display: flex;
+    padding: 10% 5em;
+    justify-content: center;
+    align-items: center;
+}
+.top img {
+    border-radius: 50%;
+    border: 3px solid #2b2b2b;
+    margin: 16px;
+}
+
+.top_left {
+    text-align: center;
+
+    padding: 16px;
+}
+.top_left img {
+    width: 250px;
+}
+.name {
+    border: 3px solid #2b2b2b;
+    border-radius: 5px;
+    width: 200px;
+    margin: 8px;
+    padding: 8px;
+    font-size: 36px;
+    text-align: center;
+    font-weight: bold;
+    border-left: 5px solid #2b2b2b;
+    border-bottom: 5px solid #2b2b2b;
+}
+.name_en {
+    font-family: 'Forte';
+}
+.introduction {
+    padding: 30px;
+    margin: 15px;
+    border: 3px solid #2b2b2b;
+    border-radius: 15px;
+    border-left: 10px solid #2b2b2b;
+    border-bottom: 10px solid #2b2b2b;
+}
+
+.title_en {
+    font-family: 'Cooper Black';
+}
+.skillsection {
+    padding: 7em 0;
+    width: 100%;
+    background-color: #f7e1d1;
+}
+
+.skillsection p {
+    font-family: 'Taipei Sans TC Beta';
+}
+.skillmain {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    padding: 0 20%;
+}
+.skillicon img {
+    width: 300px;
+    margin: 1.5em;
+    border: none;
+}
+.skillsection .row {
+    margin: 0 15px;
+}
+.des {
+    text-align: left;
+}
+
+.plan {
+    padding: 3em 10%;
+    justify-content: center;
+    align-items: center;
+}
+.planbottom {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.planleft,
+.planright {
+    width: 50%;
+    margin: 1.5em;
+    padding: 1.5em;
+    border-radius: 15px;
+    background-color: #f8f4e9;
+    border: 3px solid #2b2b2b;
+    border-left: 10px solid #2b2b2b;
+    border-bottom: 10px solid #2b2b2b;
+    font-size: 20px;
+}
+.planleft h3,
+.planright h3 {
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 2em;
+}
+.plan h1 {
+    text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+    .index_title {
+        font-size: 24px;
+        width: 70%;
+    }
+    .aboutme {
+        justify-content: center;
+    }
+
+    .introduction {
+        padding: 10px 30px;
+    }
+    .introduction h1,
+    .introduction h3 {
+        text-align: center;
+        padding: 10px;
+    }
+    .skillsection {
+        background-size: 90% 90%;
+    }
+
+    .skillmain {
+        padding: 0 10%;
+    }
+    .plan {
+        padding: 3em 5%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .index h1 {
+        font-family: 'Cooper Black';
+        font-size: 48px;
+    }
+    .homename a {
+        margin: 0;
+    }
+    .top {
+        padding: 6em 0;
+    }
+    .name {
+        margin: 15px;
+    }
+
+    .top_left img {
+        width: 250px;
+    }
+
+    .skillmain {
+        text-align: center;
+        justify-content: center;
+    }
+
+    .skillicon img {
+        width: 250px;
+    }
+    .des {
+        text-align: center;
+        margin: 5px 0;
+    }
+    .plan {
+        padding: 3em 0;
+        justify-content: center;
+    }
+    .planleft,
+    .planright {
+        width: 75%;
+    }
+}
+.contactpage {
+    background-image: url(../icon_image/bg3.png);
+    background-size: 100%;
+    width: 100%;
+    padding: 3em 0;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.contact {
+    align-items: center;
+    margin: 5em 0;
+    padding: 3em;
+    background-color: #f5f5f5;
+    border-radius: 15px;
+    border: 3px solid #2b2b2b;
+}
+.contact h3 {
+    font-family: 'Cooper Black';
+}
+.contact h5 {
+    font-family: 'Taipei Sans TC Beta';
+    font-weight: bold;
+}
+.content {
+    margin-top: 10%;
+}
+
+.content img {
+    width: 35px;
+    margin: 15px;
+    border: none;
+}
+
+.content a {
+    color: #2b2b2b !important;
+    text-decoration: none;
+    font-family: 'Coda Caption';
+}
+.behan a {
+    background-color: #567ae5;
+    border: 2px solid #2b2b2b;
+    color: #f5f5f5 !important;
+    padding: 16px;
+    border-radius: 5px;
+}
+.behan a:hover {
+    background-color: #f5f5f5;
+    border: 2px solid #567ae5;
+    color: #567ae5 !important;
+    transition-duration: 0.5s;
+}
+
+@media screen and (max-width: 768px) {
+    .contact {
+        margin: 1em;
+        margin-top: 12em;
+        padding: 3em;
+
+        text-align: left;
+    }
+}
+@media screen and (max-width: 480px) {
+    .contact {
+        margin: 1em;
+        margin-top: 10em;
+        margin-bottom: 10em;
+        padding: 1em;
+
+        text-align: left;
+    }
+    .contactpage {
+        background-size: contain;
+    }
+}
+/*-------------------works--------------------------*/
+.works {
+    padding: 4em 0 !important;
+    background-color: #f5f5f5;
+}
+.works h1 {
+    width: fit-content;
+    margin-top: 2em !important;
+    font-family: 'Coda Caption', sans-serif;
+    color: #2b2b2b;
+    border: 3px solid #2b2b2b;
+    border-left: 5px solid #2b2b2b;
+    border-bottom: 5px solid #2b2b2b;
+    border-radius: 5px;
+}
+.works .row {
+    margin-top: 3em !important;
+}
+.card-title {
+    font-size: 24px;
+    font-weight: bold;
+}
+.works .btn {
+    background-color: #567ae5;
+    border: 2px solid #2b2b2b;
+    font-family: 'Coda Caption', sans-serif;
+}
+.works .btn:hover {
+    background-color: #f5f5f5;
+    color: #567ae5;
+    border: 2px solid #567ae5;
+    transition: 0.5s;
+}
+.works .card {
+    border: 3px solid #2b2b2b !important;
+}
+.works .card img {
+    border-bottom: 2px solid #2b2b2b !important;
+}
+.work_container {
+    border-bottom: 4px solid #fcdded;
+    padding: 3em 3em;
+}
+@media screen and (max-width: 768px) {
+}
+@media screen and (max-width: 480px) {
+    .works .card {
+        margin: 16px;
+    }
+}
