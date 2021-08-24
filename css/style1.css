@@ -11,16 +11,19 @@ pink:#FA9483
 html {
     width: 100%;
 }
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    font-family: 'Taipei Sans TC Beta';
+@font-face {
+    font-family: 'Forte';
+    src: url('../font/FORTE.woff') format('woff'), url('../font/FORTE.TTF') format('truetype') !important;
 }
-body {
+@font-face {
+    font-family: 'Cooper Black';
+    src: url('../font/COOPBL.woff') format('woff'), url('../font/COOPBL.TTF') format('truetype') !important;
+}
+@font-face {
+    font-family: 'Coda Caption';
+    src: url('../font/CodaCaption-ExtraBold.woff') format('woff'),
+        url('../font/CodaCaption-ExtraBold.ttf') format('truetype') !important;
+}dy {
     margin: 0;
     padding: 0;
 }
