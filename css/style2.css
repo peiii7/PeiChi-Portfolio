@@ -52,11 +52,7 @@
         width: 100%;
     }
 }
-@media screen and (max-width: 480px) {
-    .exhi img {
-        width: 100%;
-    }
-}
+
 /*----------------------------------tempo jump-----------------*/
 .tempojump img {
     width: 100%;
