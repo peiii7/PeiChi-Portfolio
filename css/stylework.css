@@ -1,16 +1,16 @@
 /*-------------------------------------------all-------------------------------------*/
 @font-face {
-    font-family: 'Forte';
+    font-family: "Forte";
     src: url('../font/FORTE.woff'), 
         url('../font/FORTE.TTF') !important;
 }
 @font-face {
-    font-family: 'Cooper Black';
+    font-family: "Cooper Black";
     src: url('../font/COOPBL.woff'), 
         url('../font/COOPBL.TTF') !important;
 }
 @font-face {
-    font-family: 'Coda Caption';
+    font-family: "Coda Caption";
     src: url('../font/CodaCaption-ExtraBold.woff') format('woff'),
         url('../font/CodaCaption-ExtraBold.ttf') format('truetype') !important; 
 }
