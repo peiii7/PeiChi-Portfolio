@@ -1,8 +1,4 @@
 /*-------------------------------------------all-------------------------------------*/
-
-@import url('https://fonts.googleapis.com/css2?family=Coda+Caption:wght@800&display=swap');
-
-
 @font-face {
     font-family: 'Forte';
     src: url('../font/FORTE.woff'), 
@@ -13,10 +9,9 @@
     src: url('../font/COOPBL.woff'), 
         url('../font/COOPBL.TTF') !important;
 }
-@font-face {
+@import {
     font-family: 'Coda Caption';
-    src: url('../font/CodaCaption-ExtraBold.woff'),
-        url('../font/CodaCaption-ExtraBold.ttf') !important;
+    src: url('https://fonts.googleapis.com/css2?family=Coda+Caption:wght@800&display=swap')  !important;
 }
 
 body {
