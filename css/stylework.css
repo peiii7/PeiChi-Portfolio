@@ -1,4 +1,18 @@
 /*-------------------------------------------all-------------------------------------*/
+@font-face {
+    font-family: 'Forte';
+    src: url('../font/FORTE.woff') format('woff'), url('../font/FORTE.TTF') format('truetype');
+}
+@font-face {
+    font-family: 'Cooper Black';
+    src: url('../font/COOPBL.woff') format('woff'), url('../font/COOPBL.TTF') format('truetype');
+}
+@font-face {
+    font-family: 'Coda Caption';
+    src: url('../font/CodaCaption-ExtraBold.woff') format('woff'),
+        url('../font/CodaCaption-ExtraBold.ttf') format('truetype');
+}
+
 body {
     background-color: #f5f5f5;
 }
